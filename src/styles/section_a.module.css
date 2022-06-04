@@ -1,0 +1,344 @@
+/* @import url('../assets/titan/uderline.png'); */
+
+@media (max-width: 767px) {
+  #head {
+    color: #343a40;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 88px;
+    position: relative;
+    text-align: center;
+  }
+  #head::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1rem;
+    width: 5rem;
+    height: 3px;
+    background: url("../assets//titan/uderline.png") 50% no-repeat;
+    background-size: 100%;
+  }
+  .cover_image {
+    text-align: center;
+  }
+  .content ul {
+    padding-left: 0;
+    padding: 0.2em;
+    font-size: 15px;
+    font-family: Recoleta;
+    line-height: 25px;
+  }
+  .bottom {
+    display: none;
+  }
+  .ecosystem {
+    background: url("../assets/titan/titan-ecosystembg.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    padding: 1em;
+  }
+  .content {
+    width: 70%;
+    margin: auto;
+  }
+  .top {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .middle {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .bottom {
+    align-items: center;
+    justify-content: space-between;
+  }
+  .cover_image {
+    text-align: center;
+  }
+  .content {
+    width: 90%;
+    margin: auto;
+  }
+  #ecosystem {
+    color: #b4b9be;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 88px;
+    position: relative;
+    text-align: center;
+  }
+  #ecosystem::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1rem;
+    width: 5rem;
+    height: 3px;
+    background: url("../assets//titan/uderline.png") 50% no-repeat;
+    background-size: 100%;
+  }
+  .wrap h2 {
+    text-align: center;
+    border: 1px solid rgba(218, 214, 214, 0.2);
+    padding: 11.2px 16px;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .wrap > div {
+    margin: 2em;
+    color: rgb(175, 170, 170);
+  }
+  #icon {
+    text-align: center;
+    animation: anime 10s ease-out infinite;
+  }
+  @keyframes anime {
+    50% {
+      color: rgb(228, 26, 26);
+    }
+    100% {
+      color: yellow;
+    }
+  }
+  #detail {
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-family: Recoleta;
+    font-size: 18px;
+  }
+
+  .mintoken {
+    width: 100%;
+    margin: auto;
+    padding: 1em;
+    height: 100vh;
+  }
+  #img {
+    width: 100%;
+  }
+  #token {
+    color: #77797a;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 88px;
+    position: relative;
+    text-align: center;
+    padding-top: 2em;
+  }
+  #token::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1rem;
+    width: 5rem;
+    height: 3px;
+    background: url("../assets/titan/uderline.png") 50% no-repeat;
+    background-size: 100%;
+  }
+  .partners {
+    background: url("../assets/titan/titanbg-pattern.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1em;
+    /* height: 300px */
+  }
+  .partners img{
+    display: blcok;
+    margin: 2em;
+  }
+  #partner {
+    color: #b8b9bb;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 88px;
+    position: relative;
+    text-align: center;
+  }
+  #partner::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1rem;
+    width: 5rem;
+    height: 3px;
+    background: url("../assets//titan/uderline.png") 50% no-repeat;
+    background-size: 100%;
+  }
+  .display {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  #head {
+    color: #343a40;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 88px;
+    position: relative;
+    text-align: center;
+  }
+  #head::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1rem;
+    width: 5rem;
+    height: 3px;
+    background: url("../assets//titan/uderline.png") 50% no-repeat;
+    background-size: 100%;
+  }
+  .cover_image {
+    text-align: center;
+  }
+  .content {
+    width: 70%;
+    margin: auto;
+  }
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .middle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .bottom {
+    display: none;
+  }
+  .ecosystem {
+    background: url("../assets/titan/titan-ecosystembg.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    padding: 1em;
+  }
+  #ecosystem {
+    color: #d8e0e7;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 88px;
+    position: relative;
+    text-align: center;
+  }
+  #ecosystem::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1rem;
+    width: 5rem;
+    height: 3px;
+    background: url("../assets/titan/uderline.png") 50% no-repeat;
+    background-size: 100%;
+  }
+  .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    flex-wrap: wrap;
+    color: rgb(197, 191, 191);
+  }
+  .wrap h2 {
+    text-align: center;
+    border: 1px solid rgba(141, 140, 140, 0.2);
+    padding: 11.2px 16px;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .wrap > div {
+    margin: 2em;
+    flex: 1;
+  }
+  #icon {
+    text-align: center;
+    animation: anime 10s ease-out infinite;
+  }
+  @keyframes anime {
+    50% {
+      color: rgb(228, 26, 26);
+    }
+    100% {
+      color: yellow;
+    }
+  }
+  #detail {
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-family: Recoleta;
+    font-size: 18px;
+  }
+  .mintoken {
+    width: 70%;
+    margin: auto;
+    padding: 1em;
+    height: 100vh;
+  }
+  #img {
+    width: 100%;
+  }
+  #token {
+    color: #77797a;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 88px;
+    position: relative;
+    text-align: center;
+    padding-top: 2em;
+  }
+  #token::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1rem;
+    width: 5rem;
+    height: 3px;
+    background: url("../assets/titan/uderline.png") 50% no-repeat;
+    background-size: 100%;
+  }
+  .partners {
+    background: url("../assets/titan/titanbg-pattern.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1em;
+    height: 300px
+  }
+  #partner {
+    color: #b8b9bb;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 88px;
+    position: relative;
+    text-align: center;
+  }
+  #partner::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -1rem;
+    width: 5rem;
+    height: 3px;
+    background: url("../assets//titan/uderline.png") 50% no-repeat;
+    background-size: 100%;
+  }
+  .display {
+    text-align: center;
+  }
+}
