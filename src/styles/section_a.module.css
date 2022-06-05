@@ -31,7 +31,7 @@
     line-height: 25px;
   }
   .bottom {
-    display: none;
+    display: block;
   }
   .ecosystem {
     background: url("../assets/titan/titan-ecosystembg.png");
